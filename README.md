@@ -1,6 +1,6 @@
 # 50 proyects 50 days testimonial box switcher
 
-## Tecnologyes
+## Tecnologies
     React, html, css, javascript
 
 ## Prototype
