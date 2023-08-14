@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 .home-container {
     background-color: #476ce4;
@@ -10,10 +11,10 @@
     flex-direction: column;
     gap:16px;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 .home-container-description {
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -38,6 +39,7 @@
     font-size: 28px;
     position: absolute;
     top: 70px;
+    display: block;
 }
 
 .fa-quote-right {
@@ -85,4 +87,10 @@
     margin: 0;
     font-weight: 400;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 755px) {
+    .fa-quote {
+        display: none;
+    }
 }
