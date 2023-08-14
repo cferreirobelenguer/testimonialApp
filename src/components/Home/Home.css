@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.home-container {
+    background-color: #476ce4;
+    color: #fff;
+    border-radius: 15px;
+    padding: 50px 80px;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-container-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.home-container-progress {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+}
+
+.fa-quote {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+}
+
+.fa-quote-right {
+    left: 40px;
+}
+
+.fa-quote-left {
+    right: 40px;
+}
+
+.home-container-user {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home-img {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.home-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.home-subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
