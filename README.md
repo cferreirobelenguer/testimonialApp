@@ -1,4 +1,4 @@
-# 50 proyects 50 days testimonial box switcher
+# 50 projects 50 days testimonial box switcher
 
 ## Technologies
     React, html, css, javascript
